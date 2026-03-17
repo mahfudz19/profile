@@ -230,7 +230,7 @@ function CinematicHtmlOverlay({ isContactHovered, setIsContactHovered }: any) {
             </div>
             <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight text-white leading-tight">
               Hi, I'm <br />
-              <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]">
+              <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]">
                 Mahfudz
               </span>
             </h1>
@@ -253,7 +253,7 @@ function CinematicHtmlOverlay({ isContactHovered, setIsContactHovered }: any) {
         <section ref={skillsRef} className="opacity-0 absolute inset-0 flex flex-col justify-center max-w-7xl mx-auto px-8 w-full transition-transform duration-75">
           <div className="flex flex-col gap-6 text-center sm:text-right max-w-2xl ml-auto mt-20 pointer-events-auto">
             <h2 className="text-5xl sm:text-6xl font-extrabold text-white drop-shadow-xl z-10">
-              The <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Core</span> Engine
+              The <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Core</span> Engine
             </h2>
             
             {/* PERBAIKAN DESAIN: Diberi background kaca gelap agar teks tidak bertabrakan dengan balok 3D */}
